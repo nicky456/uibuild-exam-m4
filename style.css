@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  -moz-appearance: none !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  border-radius: 0;
+}
+
+body,
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #467745;
+}
+
+body {
+  background-color: #c0ebf9;
+}
+
+form {
+  width: 100%;
+  max-width: 640px;
+  padding: 20px;
+  margin: auto;
+}
+
+.inputfields {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 64px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+input[type="text"]::placeholder {
+  color: #46774591;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+textarea::placeholder {
+  color: #46774591;
+}
+
+.checkbox {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+  padding-right: 20px;
+  background: white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+}
+
+.checkbox p {
+  line-height: 1.4em;
+  font-weight: 400;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: #467745;
+  color: #c0ebf9;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  max-width: 280px;
+  width: 280px;
+  height: 80px;
+}
+
+@media (max-width: 520px) {
+  h1 {
+    text-align: left;
+  }
+}
